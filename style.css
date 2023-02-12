@@ -1,17 +1,17 @@
 @import url(https://fonts.google.com/specimen/Fira+Code?category=Monospace);
 body {
-    font-family: 'Fira Code',monospace;
+    font-family: "Fira Code",monospace;
     background-color: #F5F5F7;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+/* navbar styling */
 nav {
     border: 1px solid black; /*DELETE THIS*/
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: #090808;
 }
 .navbar-logo {
@@ -33,4 +33,41 @@ nav {
 a {
     color: white;
     text-decoration: none;
+}
+/* section 1 styling */
+#sec-one {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec-one-content-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sec-one-textarea {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-one-title {
+    border: 1px solid black;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.sec-one-subtext {
+    border: 1px solid black;
+    font-size: 13px;
+    margin-left: 4px;
+}
+.sec-one-button {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 }
