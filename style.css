@@ -1,0 +1,10 @@
+@import url(https://fonts.google.com/specimen/Fira+Code?category=Monospace);
+body {
+    font-family: 'Fira Code',monospace;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: ;
+}
