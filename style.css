@@ -7,12 +7,11 @@ body {
 }
 /* navbar styling */
 nav {
-    border: 1px solid black; /*DELETE THIS*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #090808;
+    background-color: black;
 }
 .navbar-logo {
     font-size: 45px;
@@ -35,10 +34,6 @@ a {
     text-decoration: none;
 }
 /* section 1 styling */
-/* TO-DO: divide the space between the image and the text
-evenly, remove borders, fix the spacing between button and
-text.
- */
 #sec-one {
     display: flex;
     flex-direction: row;
@@ -88,7 +83,15 @@ text.
     align-items: center;
 }
 .sec-two-box-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: black;
+    color: white;
+    padding: 5em;
+    margin: 10px;
 }
