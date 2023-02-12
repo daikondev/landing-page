@@ -80,3 +80,15 @@ text.
     margin: 10px 8px;
     border-radius: 6px;
 }
+/* section 2 styling */
+#sec-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-two-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
