@@ -35,19 +35,22 @@ a {
     text-decoration: none;
 }
 /* section 1 styling */
+/* TO-DO: divide the space between the image and the text
+evenly, remove borders, fix the spacing between button and
+text.
+ */
 #sec-one {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .sec-one-content-container {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 .sec-one-textarea {
     border: 1px solid black;
@@ -66,8 +69,14 @@ a {
     font-size: 13px;
     margin-left: 4px;
 }
-.sec-one-button {
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
+#sec-one-button {
+    background-color: #090808;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 8px;
+    border-radius: 6px;
 }
