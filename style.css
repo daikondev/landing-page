@@ -95,3 +95,16 @@ a {
     padding: 5em;
     margin: 10px;
 }
+/* section 3 styling */
+#sec-three {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+#sec-three-figure {
+    display: flex;
+    flex-direction: column;
+}
+.sec-three-figcap {
+    justify-content: flex-end;
+}
