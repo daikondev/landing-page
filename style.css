@@ -3,8 +3,24 @@ body {
     font-family: 'Fira Code',monospace;
 }
 nav {
+    border: 1px solid black; /*DELETE THIS*/
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 50px;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navbar-logo {
+    font-size: 45px;
+}
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu-item {
+    font-size: 20px;
+    display: inline;
 }
