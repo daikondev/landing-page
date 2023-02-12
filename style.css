@@ -40,32 +40,32 @@ evenly, remove borders, fix the spacing between button and
 text.
  */
 #sec-one {
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+}
+#sec-one-img {
+    width: 50%;
+    height: auto;
 }
 .sec-one-content-container {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .sec-one-textarea {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .sec-one-title {
-    border: 1px solid black;
     font-size: 30px;
     margin-bottom: 5px;
     margin-left: 2px;
 }
 .sec-one-subtext {
-    border: 1px solid black;
     font-size: 13px;
     margin-left: 4px;
 }
