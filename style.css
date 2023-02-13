@@ -41,7 +41,7 @@ a {
     align-items: center;
 }
 #sec-one-img {
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 .sec-one-content-container {
@@ -54,15 +54,20 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 2%;
 }
 .sec-one-title {
     font-size: 30px;
     margin-bottom: 5px;
-    margin-left: 2px;
+    height: 33%;
 }
 .sec-one-subtext {
     font-size: 13px;
     margin-left: 4px;
+    margin-right: 4px;
+    justify-content: center;
+    text-wrap: avoid;
+    height: 33%;
 }
 #sec-one-button {
     background-color: #090808;
@@ -74,6 +79,7 @@ a {
     font-size: 16px;
     margin: 10px 8px;
     border-radius: 6px;
+    height: 33%;
 }
 /* section 2 styling */
 #sec-two {
