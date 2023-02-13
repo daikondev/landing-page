@@ -105,6 +105,16 @@ a {
     display: flex;
     flex-direction: column;
 }
-.sec-three-figcap {
+figcaption{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+}
+.sec-four-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
