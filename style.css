@@ -81,6 +81,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2%;
 }
 .sec-two-box-container {
     display: inline-flex;
@@ -100,6 +101,7 @@ a {
     display: flex;
     background-color: black;
     color: white;
+    margin-bottom: 2%;
 }
 #sec-three-figure {
     display: flex;
@@ -109,6 +111,10 @@ figcaption{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+/* section 4 styling */
+#section-four{
+    margin-bottom: 2%;
 }
 .sec-four-container {
     display: flex;
@@ -127,6 +133,7 @@ figcaption{
     font-size: 16px;
     border-radius: 6px;
 }
+/* footer styling */
 footer {
     display: flex;
     flex-direction: row;
